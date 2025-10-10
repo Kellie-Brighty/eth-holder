@@ -722,6 +722,23 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.contact {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.contact a {
+    color: var(--accent-peach);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contact a:hover {
+    color: var(--primary-purple);
+    text-shadow: 0 0 10px rgba(255, 179, 102, 0.5);
+}
+
 .disclaimer {
     font-size: 0.9rem;
     opacity: 0.8;
